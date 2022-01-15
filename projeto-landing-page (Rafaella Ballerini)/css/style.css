@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-weight: 100;
+    font-size: 100%;
+    background: rgb(30,33,40);
+    background: linear-gradient(4deg, rgba(30,33,40,1) 0%, rgba(50,54,63,1) 100%); 
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cabecalho-logo {
+    height: 60px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin: 80px 20px;
+/*     border-top: 0.2px solid white; */
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-escrito h1 {
+    font-size: 100px;
+    text-align: left;
+    color: #04d5e4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -7px;
+}
+
+.conteudo-principal-escrito h1 span {
+    color: white;
+}
+
+.conteudo-principal-escrito h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.conteudo-principal-escrito button {
+    background-color: #d4d1c8;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 0 0 20px black(0, 0, 0, 9);
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito button:hover {
+    background-color: #04d5e4;
+    color: white;
+}
+
+.conteudo img {
+    height: 350px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 90px;
+    color: white;
+}
+
+.conteudo-secundario h3 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-top: 0.9px solid white;
+    padding-top: 50px;
+    margin-bottom: 19px;
+}
+
+.conteudo-secundario p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.rodape p {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+}
+
+/* .rodape img {
+    height: 20px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    color: white;
+} */
